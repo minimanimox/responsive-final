@@ -160,6 +160,24 @@ main {
             }
         }
     }
+
+
+
+    .sale-section-1 {
+        .wrapper {
+            h2 {
+                font-size: 40px;
+            }
+
+            .item-grid {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 50px;
+
+                width: 100%;
+            }
+        }
+    }
 }
 
 footer {
@@ -183,7 +201,6 @@ footer {
 
             .logo {
                 width: 200px;
-
             }
 
             .content {
