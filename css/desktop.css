@@ -12,7 +12,7 @@ header {
             display: flex;
             align-items: center;
             font-family: "Anton SC", sans-serif;
-            font-size: 18pt;
+            font-size: 25px;
             
             &:link,
             &:visited,
@@ -34,7 +34,7 @@ header {
                 li {
                     margin-left: 50px;
 
-                    font-size: 14pt;
+                    font-size: 18px;
                     font-family: "Outfit", sans-serif;
                     font-weight: 600;
                 }
@@ -161,12 +161,55 @@ main {
         }
     }
 
+    .heading {
+        background: rgb(57, 21, 125);
+        .wrapper {
+            .heading-top{
+                padding: 40px 0;
+                font-family: "DM Serif Display", serif;
+                font-size: 40pt;
+                color: white;
+            }
 
+            p {
+                font-size: 23pt;
+                color:rgb(218, 220, 220);
+                padding-bottom: 30px;
+            }
+        }
+    }
 
+    .shop-section-link {
+        .wrapper {
+            .brands-lists {
+                display: flex;
+                justify-content: space-between;
+                padding: 40px 0;
+                li {
+                    display: flex;
+                    font-size: 30px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .shop-section-product {
+        display: flex;
+        .wrapper {
+            .shop-content {
+                h2 {
+                    font-size: 40px;
+                }
+            }
+        }
+    }
     .sale-section-1 {
         .wrapper {
             h2 {
-                font-size: 40px;
+                font-size: 60px;
+                text-align: center;
+                padding: 20px 0;
             }
 
             .item-grid {
@@ -175,9 +218,43 @@ main {
                 gap: 50px;
 
                 width: 100%;
+                padding-bottom: 40px;
+                .product-container {
+                    text-align: center;
+
+                    img {
+                        width: 200px;
+                    }
+                    .product-content {
+                        background-color: var(--light-purple);
+                    }
+                }
             }
         }
     }
+}
+
+aside {
+    .wrapper {
+        .filters {
+            display: flex;
+            flex-direction: column;
+            background: yellow;
+            h3 {
+                font-size: 30px;
+            }
+            ul {
+                li {
+                    font-size: 20px;
+
+                    img {
+                        width: 20px;
+                        vertical-align: middle; /* 텍스트와 이미지의 중앙 정렬 flex는 안되고 inline만 가능 */
+                    }
+                }
+            }
+        }
+    }    
 }
 
 footer {

@@ -17,9 +17,9 @@
                 <ul class="horizontal-list">
                     <li><a href="#">Shop</a></li>
                     <li><a href="./brands.html">Brands</a></li>
-                    <li>On sale</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <li><a href="./sale.html">On sale</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </nav>
             <nav class="icon-nav">
@@ -33,11 +33,47 @@
     </header>
 
     <main>
-        <section>info - section1</section>
-        <section>link </section>
+        <section class="search">
+            <div class="wrapper">
+                <input type="search" name="search" id="search" placeholder="Search">
+                <select name="categories" id="categories">
+                    <option value="accessories">Accessories</option>
+                    <option value="beds">Beds</option>
+                    <option value="bowl-feeders">Bowl&Feeders</option>
+                    <option value="food">Food</option>
+                    <option value="grooming">Grooming</option>
+                    <option value="health">Health</option>
+                    <option value="toy">Toy</option>
+                    <option value="treats">Treats</option>
+                </select>
+                <a href="#" class="button-style">Search</a>
+            </div>
+        </section>
+        <section class="shop-section-product">
+            <div class="wrapper">
+                <div class="shop-content">
+                    <h2>Shop List</h2>
+                </div>
+                
+            </div>
+        </section>
         <section>brand</section>
         <section></section>
     </main>
+
+    <aside class="shop-aside">
+        <div class="wrapper">
+            <div class="filters">
+                <h3>Filters</h3>
+                <ul>
+                    <li><a href="#">Brand <img src="../assets/angle-small-down.png" alt="dropdown button"></a></li>
+                    <li><a href="#">Product type <img src="../assets/angle-small-down.png" alt="dropdown button"></a></li>
+                    <li><a href="#">Availability <img src="../assets/angle-small-down.png" alt="dropdown button"></a></li>
+                    <li><a href="#">Price <img src="../assets/angle-small-down.png" alt="dropdown button"></a></li>
+                </ul>
+            </div>
+        </div>
+    </aside>
 
     <footer class="footer">
         <div class="wrapper">

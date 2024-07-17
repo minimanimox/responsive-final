@@ -16,7 +16,8 @@ button {
 }
 
 .wrapper {
-    width: 1300px;
+    max-width: 1200px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
@@ -28,7 +29,7 @@ button {
 
 h1 {
     font-size: 70pt;
-    font-family: "Pacifico", cursive;
+    font-family: "Pacifico", cursive; /*꼬부랑글씨*/
     font-weight: 400;
 }
 
