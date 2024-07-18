@@ -179,7 +179,7 @@ main {
         }
     }
 
-    .shop-section-link {
+    .brands-section-link {
         .wrapper {
             .brands-lists {
                 display: flex;
@@ -194,6 +194,36 @@ main {
         }
     }
 
+    .brands-section-detail {
+        .wrapper {
+            .alphabet-part {
+                display: flex;
+                align-content: center;
+                .capital-letter {
+                    display: flex;
+                    background: black;
+                    color: white;
+                    font-size: 140px;
+                    justify-content: center;
+                    align-items: center;
+                    min-width: 200px;
+                    margin: 20px;
+                }
+                .each-brand {
+                    display: flex;
+                    flex-wrap: wrap;
+                    max-width: 960px;
+                    align-items: center;
+                    a {
+                        padding-left: 20px;
+                    }
+                }
+            }
+        }
+        
+        
+    }
+
     .shop-section-product {
         display: flex;
         .wrapper {
@@ -204,6 +234,14 @@ main {
             }
         }
     }
+
+    .test {
+        .wrapper {
+            padding-left: 240px;
+        }
+        
+    }
+
     .sale-section-1 {
         .wrapper {
             h2 {
@@ -219,12 +257,24 @@ main {
 
                 width: 100%;
                 padding-bottom: 40px;
-                .product-container {
+                .product-container {                   
                     text-align: center;
-
-                    img {
+                    position: relative;
+                    .product-pic {
                         width: 200px;
+                        z-index: 1;
                     }
+                    .tag-container {
+                        position: absolute;
+                        z-index: 2;
+                        left: 0;
+                        top: 0;
+                        .sale-mark {
+                            width: 70px;
+                        }
+                        
+                    }
+                    
                     .product-content {
                         background-color: var(--light-purple);
                     }
@@ -236,10 +286,16 @@ main {
 
 aside {
     .wrapper {
+        positon: relative;
         .filters {
             display: flex;
             flex-direction: column;
             background: yellow;
+            width: 200px;
+            margin-top: 100px;
+            padding: 40px; 
+            position: fixed;
+
             h3 {
                 font-size: 30px;
             }
