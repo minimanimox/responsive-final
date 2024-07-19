@@ -33,13 +33,24 @@
     </header>
 
     <main>
-        <section>
+        <div class="heading">
             <div class="wrapper">
-                <div class="message">
-                    <h3>Send Us a Message</h3>
-                    <p>Do you have comments or questions? Just want to say hello? We’d love to hear from you. Fill out the form below, and we’ll connect with you soon.</p>
-                </div>
+                <h2 class="heading-top">Help & Contact Us</h2>
+                <p>Do you have comments or questions? Just want to say hello? We’d love to hear from you. Fill out the form below, and we’ll connect with you soon.</p>
+            </div>
+        </div>
+        <section class="contact-section">
+            <div class="wrapper">
                 <div class="input-info">
+                    <select name="subject" id="subject">
+                        <option value="" selected disabled hidden>Select a subject</option>
+                        <option value="product">Product Questions</option>
+                        <option value="account">Account information</option>
+                        <option value="order">Order Questions</option>
+                        <option value="coupons&promotions">Coupons & Promotions</option>
+                        <option value="payment">Payment</option>
+                        <option value="others">Other / General Feedbacks</option>
+                    </select>
                     <h2>Your Name</h2>
                     <input type="text" name="name" id="name" placeholder="First and Last name">
                     <h2>Your Email</h2>
@@ -47,13 +58,9 @@
                     <h2>Your Message</h2>
                     <input type="text" name="" id="">
                     <a href="#" class="button-style">Submit</a>
-
                 </div>
             </div>
         </section>
-        <section>link </section>
-        <section>brand</section>
-        <section></section>
     </main>
 
     <footer class="footer">
