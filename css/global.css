@@ -33,6 +33,11 @@ h1 {
     line-height: 1.4;
 }
 
+h2 {
+    padding: 20px 0;
+    font-size: 30px;
+}
+
 .main-story {
     font-size: 27pt;
     color: rgb(47, 47, 47);  
