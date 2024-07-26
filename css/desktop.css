@@ -616,21 +616,108 @@ main {
 
     /* contact part starts */
     .contact-section {
+        padding: 40px 0;
         .wrapper {
-            .input-info {
-                a {
-                    padding: 10px;
-                    background: rgb(156, 156, 243);
-                    margin: 0 30px 0px 5px;
-                    border-radius: 10px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: 
+                url('../assets/listen-dog.png') no-repeat right 20px top 40px,
+                linear-gradient(to right, #f2e6ff, #f6f6fd);
+            border-radius: 8px;
+            background-size: contain; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            .select-container {
+                width: 100%;
+                margin-bottom: 20px;
+                select {
+                    width: 100%;
+                    padding: 15px;
+                    color: white;
+                    font-size: 19px;
+                    letter-spacing: 60%;
+                    border: none;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                    background: #4c19b0;
+                }
+            }
+            .content-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                width: 50%;
+                .input-info {
+                    flex: 1;
+                    margin-right: 20px;
+                    h2 {
+                        margin-top: 20px;
+                        font-size: 18px;
+                        color: #333;
+                    }
+                }
+                .img-container {
+                    flex: 1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .background-main {
+                        width: 80%;
+                    }
+                    .background-vector1 {
+                        width: 130px;
+                        position: absolute;
+                        top: 800px;
+                        left: 880px;
+                    }
+                    .background-vector2 {
+                        width: 100px;
+                        position: absolute;
+                        top: 500px;
+                        right: 300px;
+                    }
                 }
             }
         }
     }
+    
+    .input-info input[type="text"],
+    .input-info input[type="email"],
+    .input-info textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        box-sizing: border-box;
+        background-color: #fff;
+    }
+    
+    .input-info textarea {
+        height: 120px;
+        resize: none;
+    }
+    
+    .submit-button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #b19cd9; 
+        color: #fff;
+        text-align: center;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+        cursor: pointer; 
 
+        &:hover {
+            background-color: #9370db; 
+        }
+    }
     /* contact part ends */
-}
 
+}
 /*main*/
 
 footer {
