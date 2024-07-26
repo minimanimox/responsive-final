@@ -37,6 +37,17 @@ header {
                     font-size: 18px;
                     font-family: "Outfit", sans-serif;
                     font-weight: 600;
+
+                    a:link,
+                    a:visited {
+                        color: black;
+                    }
+                    a:hover {
+                        color: rgb(15, 6, 130);
+                    }
+                    a:active {
+                        color: rgb(131, 109, 245);
+                    }
                 }
             }
         }
@@ -150,7 +161,7 @@ main {
                         width: 90px;
                         position: absolute;
                         z-index: 1;
-                        left: 1390px;
+                        left: 1290px;
                         top: 1300px;
                     }
                 }
@@ -277,10 +288,25 @@ main {
                     align-items: center;
                     font-size: 30px;
                     font-weight: bold;
-                    transition: font-size 1s;
+                    
+                    a {
+                        transition: font-size 1s;
+                        &:link,
+                        &:visited {
+                            color: rgb(77, 8, 225);
+                        }
+                        &:hover {
+                            color: rgb(15, 6, 130);
+                            font-size: 50px;
+                        }
+                        &:active {
+                            color: rgb(131, 109, 245);
+                        }
+                    }
+                    
                 }
 
-                li:hover {
+                a:hover {
                     font-size: 50px;
                 }
             }
@@ -438,24 +464,20 @@ main {
     .sale-container {
         .wrapper {
             display: flex;
-
             .sale-aside {
                 display: flex;
                 height: fit-content;
                 padding-top: 20px;
-
                 .filters {
                     display: flex;
                     flex-direction: column;
                     background-image: url(../assets/blur3.png);
                     width: 200px;
                     padding: 40px 0 40px 40px;
-
                     h3 {
                         font-size: 30px;
                         padding-bottom: 20px;
                     }
-
                     .dropdown {
                         position: relative;
                         display: inline-block;
@@ -533,6 +555,36 @@ main {
 
                         .product-content {
                             background-color: var(--light-purple);
+                            padding: 10px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            height: 150px; 
+                            h3 {
+                                padding: 10px 0;
+                                flex: 1; /* 남은 공간을 차지하여 가격 정보가 아래로 밀리도록 함 */
+                                margin: 0; 
+                                overflow: hidden; 
+                                text-overflow: ellipsis; /* 넘치는 텍스트를 '...'로 표시 */
+                                font-size: 16px;
+                            }
+                            p {
+                                padding-bottom: 10px;
+                                margin: 0; 
+                                font-weight: bold;
+                                font-size: 20px;
+                            }
+                            .original-price {
+                                text-decoration: line-through;
+                                color: grey; 
+                                font-weight: normal;
+                                font-size: 16px;
+                            }
+                            
+                            .now {
+                                font-weight: bold;
+                                color: red;
+                            }
                         }
                     }
                 }
@@ -615,6 +667,27 @@ main {
     /* about part ends */
 
     /* contact part starts */
+    .container {
+        .accordion-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+    }
+
+    .contact-form-before {
+        background: #ccb9f3;
+        margin-top: 30px;
+        .wrapper {
+            text-align: center;
+            color: white;
+            h2 {
+                font-size: 50px;
+            }
+            p {
+                padding: 20px;
+            }
+        }
+    }
     .contact-section {
         padding: 40px 0;
         .wrapper {
@@ -717,6 +790,28 @@ main {
     }
     /* contact part ends */
 
+    /*top button style*/
+    .top-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 5px 10px;
+        background-color: #9370db; 
+        opacity: 0.5;
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 13px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease;
+        z-index: 1000; 
+    }
+    
+    .top-button:hover {
+        background-color: #7a5eb7; 
+        opacity: 1; 
+    }
 }
 /*main*/
 
@@ -741,6 +836,11 @@ footer {
 
             .logo {
                 width: 200px;
+                transition: transform 2s ease-in-out;
+            }
+            
+            .logo:hover {
+                transform: scale(1.2) rotate(360deg);
             }
 
             .content {
@@ -774,6 +874,16 @@ footer {
                 .explorer-info {
                     li+li {
                         margin-top: 16px;
+                    }
+                    a:link,
+                    a:visited {
+                        color: black;
+                    }
+                    a:hover {
+                        color: rgb(15, 6, 130);
+                    }
+                    a:active {
+                        color: rgb(131, 109, 245);
                     }
                 }
 
