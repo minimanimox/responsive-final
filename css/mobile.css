@@ -14,23 +14,23 @@
             .dots {
                 margin-bottom: -5vh; 
                 .dot {
-                    width: 5vw; 
-                    height: 5vw; 
+                    width: 8vw; 
+                    height: 8vw; 
                 }
             }
             h1 {
-                font-size: 9vw;
+                font-size: 22vw;
             }
             h2 {
-                font-size: 3vw; 
+                font-size: 8vw; 
             }
         
             h3 {
                 padding: 1vh; 
-                font-size: 2vw;
+                font-size: 6vw;
             }
             p {
-                font-size: 1.8vw; 
+                font-size: 4vw; 
                 color: #333;
             }
         }

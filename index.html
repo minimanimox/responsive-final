@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/desktop.css">
+    <link rel="stylesheet" href="../css/tablet.css">
     <link rel="stylesheet" href="./css/mobile.css">
     <title>Welcome to PawsomeBites</title>
 </head>
@@ -23,9 +24,22 @@
             </nav>
             <nav class="icon-nav">
                 <ul class="horizontal-list">
-                    <li><img src="./assets/user.png" alt="User icon"></li>
-                    <li><img src="./assets/heart.png" alt="Heart icon"></li>
-                    <li><img src="./assets/shopping-cart.png" alt="Shopping cart icon"></li>
+                    <li><img src="../assets/user.png" alt="User icon"></li>
+                    <li><img src="../assets/heart.png" alt="Heart icon"></li>
+                    <li><img src="../assets/shopping-cart.png" alt="Shopping cart icon"></li>
+                    <li class="menu">
+                        <label for="menu-toggle"><img src="../assets/menu-burger.png" alt="Menu bar"></label>
+                        <input type="checkbox" class="menu-toggle" id="menu-toggle">
+                        <nav class="toggle-nav">
+                            <ul class="link-list">
+                                <li><a href="./pages/shop.html">Shop</a></li>
+                                <li><a href="./pages/brands.html">Brands</a></li>
+                                <li><a href="./pages/sale.html">On sale</a></li>
+                                <li><a href="./pages/about.html">About</a></li>
+                                <li><a href="./pages/contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </li>
                 </ul>
             </nav>
         </div>
