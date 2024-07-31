@@ -1,4 +1,4 @@
-@media (min-width: 601px) and (max-width: 1000px) {
+@media screen and (max-width : 1024px) {
     header {
         padding: 20px 50px;
         .wrapper {
@@ -29,8 +29,47 @@
     }
 
     footer {
-
+        padding: 20px 50px;
+        .wrapper {
+            .footer-contents {
+                display: flex;
+                flex-direction: column;
+                .logo {
+                    width: 80px;
+                }
+            }
+            .content {
+                h3 {
+                    font-size: 15px;
+                }
+                .contact-info {
+                    li {
+                        &+& {
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
     }
     /* 404 error */
-    
+    .container {
+        .wrapper {
+            h1 {
+                font-size: 130px;
+            }
+            h2 {
+                font-size: 40px;
+            }
+        
+            h3 {
+                padding: 10px;
+                font-size: 30px;
+            }
+            p {
+                font-size: 22px;
+                color: #333;
+            }
+        }
+    }
 }
