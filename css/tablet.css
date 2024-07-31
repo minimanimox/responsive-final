@@ -27,7 +27,150 @@
             }
         }
     }
+    main {
+        .home-section-1 {
+            .home-main-top {
+                .wrapper {
+                    width: 100%;
+                    .background-img {
+                        .vectors {
+                            .vector11 {
+                                left: 20px;
+                            }
+                            .vector5 {
+                                width: 50px;
+                                left: 410px;
+                                top: 100px;
+                            }
+                            .vector4 {
+                                width: 40px;
+                                left: 390px;
+                                top: 50px;
+                                transform: rotate(-10deg);
+                            }
+                        }
+                        .main-introduction {
+                            display: flex;
+                            flex-direction: column;
+                            width: 100%;
+                            padding: 0 20px;
+                            h1 {
+                                display: flex;
+                                justify-items: left;
+                                margin-top: 100px;
+                                font-size: 5rem;
+                            }
+                            .main-story {
+                                margin-top: 200px;
+                                padding: 0 60px;
+                                font-size: 1.6rem;
+                                width: 100%;
+                                text-align: center;
+                                color: white;
+                                text-shadow: 1px 2px #0f0f0f;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .home-section-2 {
+            .home-main-middle {
+                .wrapper {
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .vectors {
+                        .vector8 {
+                            width: 180px;
+                            left: 300px;
+                            top: 1100px;
+                        }
 
+                        .vector9 {
+                            display: none;
+                        }
+                    }
+
+                    .shopping-introduction {
+                        .main-story {
+                            margin-left: 0;
+                            padding: 0 60px;
+                            margin-bottom: 180px;
+                            font-size: 1.6rem;
+                        }
+                    }
+
+                    img.round-dog {
+                        display: flex;
+                        justify-self: center;
+                        width: 200px;
+                        margin: 180px 0 90px;
+                    }
+                }
+            }
+        }
+        .home-section-3 {
+            .home-main-last {
+                background-image: url(../assets/shiba.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: 40%;
+                .wrapper {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .vectors {
+                        .vector10 {
+                            display: none;
+                        }
+    
+                        .vector11 {
+                            display: none;
+                        }
+                    }
+    
+                    .sharing-introduction {
+                        display: flex;
+                        align-items: center;
+    
+                        .story-wrapper {
+                            display: flex;
+                            align-items: center;
+                            flex-direction: column;
+    
+                            .main-story {
+                                padding: 200px 20px 200px 20px;
+                                font-size: 1.6rem;
+                            }
+    
+                            .shop-button {
+                                display: flex;
+                                align-items: center;
+    
+                                margin-top: 20px;
+                                margin-bottom: 180px;
+    
+                                padding: 10px 40px;
+                                border-radius: 50%;
+                                background: var(--light-purple);
+    
+                                button {
+                                    font-weight: bold;
+                                    font-size: 15pt;
+                                    color: var(--default-grey);
+                                }
+                            }
+                        }
+                    }
+    
+                    img {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }    
     footer {
         padding: 20px 50px;
         .wrapper {

@@ -221,7 +221,7 @@ main {
                     }
                 }
 
-                img {
+                .round-dog {
                     width: 500px;
                     border-radius: 50%;
                     margin: 180px 0;

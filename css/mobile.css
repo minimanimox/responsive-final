@@ -2,9 +2,50 @@
     header {
         padding: 20px 20px;
     }
-
+    main {
+        .home-section-1 {
+            .home-main-top {
+                background-image: none;
+                .wrapper {
+                    .background-img {
+                        .vectors {
+                            .vector5 {
+                                left: 270px;
+                            }
+                            .vector4 {
+                                left: 260px;
+                            }
+                        }
+                        .main-introduction {
+                            h1 {
+                                font-size: 4rem;
+                                color: white;
+                            }
+                            .main-story {
+                                margin-top: 230px;
+                                font-weight: 400;
+                                line-height: 1.2;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .home-section-2 {
+            .home-main-middle {
+                .wrapper {
+                    .vectors {
+                        .vector8 {
+                            width: 120px;
+                            left: 190px;
+                            top: 1300px;
+                        }
+                    }
+                }
+            }
+        }
+    }
     
-
     footer {
         padding: 20px 20px;
     }
