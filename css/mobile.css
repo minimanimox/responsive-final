@@ -1,109 +1,81 @@
-@media screen and (max-width : 480px){
+@media screen and (max-width: 480px) {
     header {
         padding: 20px 10px;
-        .wrapper {
-            .header-home {
-                font-size: 1.2rem;
-            }
-            img {
-                width: 30px;
-                margin-right: 10px;
-            }
-        }
     }
-    main {
-        .hero-section {
-            .home-main-top {
-                background-image: none;
-                .wrapper {
-                    .background-img {
-                        .vectors {
-                            .vector5 {
-                                width: 40px;
-                                left: 273px;
-                            }
-                            .vector4 {
-                                width: 30px;
-                                left: 260px;
-                            }
-                        }
-                        .main-introduction {
-                            h1 {
-                                font-size: 4rem;
-                                color: white;
-                                padding-left: 0;
-                            }
-                            .main-story {
-                                margin-top: 230px;
-                                font-weight: 400;
-                                line-height: 1.2;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        .home-section-2 {
-            .home-main-middle {
-                .wrapper {
-                    .vectors {
-                        .vector8 {
-                            width: 120px;
-                            left: 190px;
-                            top: 1300px;
-                        }
-                    }
-                }
-            }
-        }
-        .heading {
-            .wrapper {
-                padding: 30px 20px;
-                .heading-top {
-                    padding: 0;
-                    font-size: 20pt;
-                }
-
-                p {
-                    display: none;
-                }
-            }
-        }
-
-        /*top button style*/
-        .top-button {
-            bottom: 40px;
-        }
+    header .wrapper .header-home {
+        font-size: 1.2rem;
     }
-    
+    header .wrapper img {
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    main .hero-section .home-main-top {
+        background-image: none;
+    }
+    main .hero-section .home-main-top .wrapper .background-img .vectors .vector5 {
+        width: 40px;
+        left: 273px;
+    }
+    main .hero-section .home-main-top .wrapper .background-img .vectors .vector4 {
+        width: 30px;
+        left: 260px;
+    }
+    main .hero-section .home-main-top .wrapper .background-img .main-introduction h1 {
+        font-size: 4rem;
+        color: white;
+        padding-left: 0;
+    }
+    main .hero-section .home-main-top .wrapper .background-img .main-introduction .main-story {
+        margin-top: 230px;
+        font-weight: 400;
+        line-height: 1.2;
+    }
+
+    main .home-section-2 .home-main-middle .wrapper .vectors .vector8 {
+        width: 120px;
+        left: 190px;
+        top: 1300px;
+    }
+
+    main .heading .wrapper {
+        padding: 30px 20px;
+    }
+    main .heading .wrapper .heading-top {
+        padding: 0;
+        font-size: 20pt;
+    }
+    main .heading .wrapper p {
+        display: none;
+    }
+
+    main .top-button {
+        bottom: 40px;
+    }
+
     footer {
         padding: 20px 20px;
     }
-    /* 404 error */
-    .error-container {
-        .wrapper {
-            .dots {
-                margin-bottom: -5vh; 
-                .dot {
-                    width: 8vw; 
-                    height: 8vw; 
-                }
-            }
-            h1 {
-                font-size: 22vw;
-            }
-            h2 {
-                font-size: 8vw; 
-            }
-        
-            h3 {
-                padding: 1vh; 
-                font-size: 6vw;
-            }
-            p {
-                font-size: 4vw; 
-                color: #333;
-            }
-        }
+
+    .error-container .wrapper .dots {
+        margin-bottom: -5vh;
+    }
+    .error-container .wrapper .dots .dot {
+        width: 8vw;
+        height: 8vw;
+    }
+    .error-container .wrapper h1 {
+        font-size: 22vw;
+    }
+    .error-container .wrapper h2 {
+        font-size: 8vw;
+    }
+    .error-container .wrapper h3 {
+        padding: 1vh;
+        font-size: 6vw;
+    }
+    .error-container .wrapper p {
+        font-size: 4vw;
+        color: #333;
     }
 }
