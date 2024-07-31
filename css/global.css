@@ -46,8 +46,8 @@ h2 {
 }
 
 :root {
-    --light-purple: rgb(244, 239, 250);
-    --default-grey: rgb(47, 47, 47);
+    --light-purple: #f4effa;
+    --default-grey: #2f2f2f;
     --default-heading-color: color: rgb(32, 29, 29);
 }
 

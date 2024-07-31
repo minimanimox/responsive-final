@@ -115,7 +115,7 @@ header {
 }
 
 main {
-    .home-section-1 {
+    .hero-section {
         .home-main-top {
             background-image: url("../assets/Vector1.png");
             background-repeat: no-repeat;
@@ -283,10 +283,17 @@ main {
                             border-radius: 50%;
                             background: var(--light-purple);
 
-                            button {
-                                font-weight: bold;
-                                font-size: 15pt;
-                                color: var(--default-grey);
+                            a {
+                                &:link,
+                                &:visited {
+                                    color: #0f0682;
+                                }
+                                &:hover {
+                                    color: #7911d4;
+                                }
+                                &:active {
+                                    color: #836df5;
+                                }
                             }
                         }
                     }
