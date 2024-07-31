@@ -1,6 +1,6 @@
-@media (max-width: 600px) {
+@media (min-width: 601px) and (max-width: 1000px) {
     header {
-        padding: 20px 20px;
+        padding: 20px 50px;
         .wrapper {
             .main-nav {
                 .link-list {
@@ -29,29 +29,8 @@
     }
 
     footer {
-        padding: 20px 20px;
-        .wrapper {
-            .footer-contents {
-                display: flex;
-                flex-direction: column;
-                .logo {
-                    width: 80px;
-                }
-            }
-            .content {
-                h3 {
-                    font-size: 15px;
-                }
-                .contact-info {
-                    li {
-                        &+& {
-                            margin-top: 10px;
-                        }
-                    }
-                }
-            }
-        }
+
     }
     /* 404 error */
-
+    
 }
