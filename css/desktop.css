@@ -303,6 +303,7 @@ main {
         background-image: url(../assets/background-blurr.png);
 
         .wrapper {
+            padding: 20px 50px;
             .heading-top {
                 padding: 40px 0;
                 font-family: "DM Serif Display", serif;
