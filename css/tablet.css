@@ -10,7 +10,7 @@
             }
             .icon-nav {
                 .horizontal-list {
-                    li.menu {
+                    li[class="menu"] {
                         display: flex;
                         img:hover {
                             cursor: pointer;
@@ -34,7 +34,7 @@
             .footer-contents {
                 display: flex;
                 flex-direction: column;
-                .logo {
+                img.logo {
                     width: 80px;
                 }
             }
@@ -53,8 +53,16 @@
         }
     }
     /* 404 error */
-    .container {
+    .error-container {
         .wrapper {
+            .dots {
+                padding-top: 130px;
+                margin-bottom: -100px;
+                .dot {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
             h1 {
                 font-size: 130px;
             }
