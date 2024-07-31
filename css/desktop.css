@@ -89,8 +89,9 @@ header {
                         top: 120%;
                         right: 0;
                         background-color: #fff;
+                        opacity: 0.7;
                         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                        z-index: 1;
+                        z-index: 20;
                         .link-list {
                             list-style: none;
                             padding: 0;
@@ -99,7 +100,7 @@ header {
                                 margin-left: 0;
                                 a {
                                     text-decoration: none;
-                                    color: #333;
+                                    color: #090909;
                                     font-size: 16px;
                                     padding: 10px;
                                     display: block;
@@ -166,7 +167,8 @@ main {
                             margin-top: 170px;
                             margin-bottom: 80px;
                             font-size: 120px;
-                            text-shadow: 1px 2px #a8a6a6;
+                            text-shadow: 1px 2px #a8a6a6;    
+                            padding-left: 20px;
                         }
 
                         .main-story {
@@ -176,6 +178,7 @@ main {
                             color: white;
                             font-family: "DM Serif Display", serif;
                             font-weight: 600;
+                            padding-left: 20px;
                         }
                     }
                 }
@@ -205,7 +208,7 @@ main {
                         width: 90px;
                         position: absolute;
                         z-index: 1;
-                        left: 1290px;
+                        left: 73px;
                         top: 1300px;
                     }
                 }
@@ -250,7 +253,7 @@ main {
                         width: 50px;
                         position: absolute;
                         z-index: 1;
-                        left: 990px;
+                        left: 790px;
                         top: 2300px;
                     }
                 }

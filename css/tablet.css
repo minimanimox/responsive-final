@@ -170,6 +170,53 @@
                 }
             }
         }
+        .heading {
+            .wrapper {
+                padding: 20px 50px;
+                .heading-top {
+                    padding: 40px 0;
+                    font-size: 30pt;
+                }
+
+                p {
+                    font-size: 12pt;
+                    line-height: 1.2;
+
+                }
+            }
+        }
+        /* brand part starts */
+        .brands-section-link {
+            .wrapper {
+                .brands-lists {
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+                    padding: 40px 20px;
+
+                    li {
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }    
+        .brands-section-detail {
+            .wrapper {
+                .alphabet-part {
+                    .capital-letter {
+                        font-size: 50px;
+                        min-width: 100px;
+                        min-height: 100px;
+                    }  
+                    .each-brand {
+                        a {
+                            font-size: 17px;
+                            padding-left: 0;
+                            padding-right: 13px;
+                        }
+                    }
+                }
+            }
+        }    
     }    
     footer {
         padding: 20px 50px;

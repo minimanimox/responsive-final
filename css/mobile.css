@@ -1,6 +1,15 @@
 @media screen and (max-width : 480px){
     header {
         padding: 20px 20px;
+        .wrapper {
+            .header-home {
+                font-size: 1.2rem;
+            }
+            img {
+                width: 30px;
+                margin-right: 10px;
+            }
+        }
     }
     main {
         .home-section-1 {
@@ -10,7 +19,7 @@
                     .background-img {
                         .vectors {
                             .vector5 {
-                                left: 270px;
+                                left: 288px;
                             }
                             .vector4 {
                                 left: 260px;
@@ -41,6 +50,19 @@
                             top: 1300px;
                         }
                     }
+                }
+            }
+        }
+        .heading {
+            .wrapper {
+                padding: 30px 20px;
+                .heading-top {
+                    padding: 0;
+                    font-size: 20pt;
+                }
+
+                p {
+                    display: none;
                 }
             }
         }
