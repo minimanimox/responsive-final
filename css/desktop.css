@@ -906,3 +906,47 @@ footer {
         }
     }
 }
+
+/* 404 error */
+.container {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    h1 {
+        font-size: 190px;
+        margin: 0;
+        color: #ff6347;
+    }
+    
+    h2 {
+        font-size: 80px;
+    }
+
+    h3 {
+        padding: 20px;
+        font-size: 40px;
+    }
+    p {
+        font-size: 24px;
+        color: #333;
+    }
+
+}
+
+.home-link {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #ff6347;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.home-link:hover {
+    background-color: #e5533d;
+}
