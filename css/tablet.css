@@ -393,7 +393,40 @@
                 }
             }
         } /* about part ends */
+        /* contact part starts */
+        .container {
+            .accordion-container {
+                max-width: 1000px;
+                margin: 0 auto;
+            }
+        }
 
+        .contact-form-before {
+            background: #ccb9f3;
+            margin-top: 30px;
+            .wrapper {
+                text-align: center;
+                color: white;
+                h2 {
+                    font-size: 50px;
+                }
+                p {
+                    padding: 20px;
+                }
+            }
+        }
+        .contact-section {
+            .wrapper {
+                background: rgb(232, 227, 236);          
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                .content-container {
+                    width: 100%;
+                    .input-info {
+                        margin-right: 0;
+                    }
+                }
+            }
+        } /* contact part ends */
     }  /*main part ends*/  
     footer {
         padding: 20px 50px;

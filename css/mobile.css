@@ -138,6 +138,9 @@
         width: calc(50% - 10px); 
     }
 
+    main .contact-form-before .wrapper h2 {
+        font-size: 26px;
+    }
     footer {
         padding: 20px 20px;
     }
