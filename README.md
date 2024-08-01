@@ -11,7 +11,7 @@ This is the final project for creating a responsive website. The website is desi
   - [sales.html](#saleshtml)
   - [about.html](#abouthtml)
   - [contact.html](#contacthtml)
-  - [404error.html](#404errorhtml)
+  - [404.html](#404html)
 - [CSS Structure](#css-structure)
 - [Repository](#repository)
 - [Cloning the Repository](#cloning-the-repository)
