@@ -10,23 +10,23 @@
         margin-right: 10px;
     }
 
-    main .hero-section .home-main-top {
+    main .home-section-1 .home-main-top {
         background-image: none;
     }
-    main .hero-section .home-main-top .wrapper .background-img .vectors .vector5 {
+    main .home-section-1 .home-main-top .wrapper .background-img .vectors .vector5 {
         width: 40px;
         left: 273px;
     }
-    main .hero-section .home-main-top .wrapper .background-img .vectors .vector4 {
+    main .home-section-1 .home-main-top .wrapper .background-img .vectors .vector4 {
         width: 30px;
         left: 260px;
     }
-    main .hero-section .home-main-top .wrapper .background-img .main-introduction h1 {
+    main .home-section-1 .home-main-top .wrapper .background-img .main-introduction h1 {
         font-size: 4rem;
         color: white;
         padding-left: 0;
     }
-    main .hero-section .home-main-top .wrapper .background-img .main-introduction .main-story {
+    main .home-section-1 .home-main-top .wrapper .background-img .main-introduction .main-story {
         margin-top: 230px;
         font-weight: 400;
         line-height: 1.2;
@@ -51,6 +51,45 @@
 
     main .top-button {
         bottom: 40px;
+    }
+
+    main .shop-section-search {
+        padding: 0;
+    }
+
+    main .shop-section-search .wrapper{
+        align-items: center;
+        justify-content: center;
+    }
+
+    main .shop-section-search .wrapper .button-style{
+        margin-right: 0;
+    }
+
+    main .zealandia .wrapper h2,
+    main .shop-section-new .wrapper h2,
+    main .shop-section-favorites .wrapper h2,
+    main .shop-section-outdoor .wrapper h2 {
+        font-size: 20px;
+    }
+    
+    main .shop-section-new .new-grid, 
+    main .shop-section-favorites .favorite-grid {
+        grid-template-columns: minmax(150px, 1fr);
+        gap: 10px;
+    }
+
+    main .shop-section-outdoor {
+        .outdoor-container {
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        }
+    }
+    
+    main .shop-section-outdoor .wrapper .outdoor-container p{
+        font-size: 14px;
+    }
+    .product-container .product-content h3 {
+        font-size: 15px;
     }
 
     footer {
@@ -78,4 +117,6 @@
         font-size: 4vw;
         color: #333;
     }
+
+
 }

@@ -28,7 +28,7 @@
         }
     }
     main {
-        .hero-section {
+        .home-section-1 {
             .home-main-top {
                 .wrapper {
                     width: 100%;
@@ -215,8 +215,41 @@
                     }
                 }
             }
-        }    
-    }    
+        }   
+        
+        /* shop part starts*/
+        .shop-section-search { 
+            padding: 0 20px;
+        }
+        
+        .zealandia,
+        .shop-section-new,
+        .shop-section-favorites,
+        .shop-section-outdoor {
+            padding: 20px 50px;
+        }
+
+        .shop-section-new {
+            .new-grid {
+                grid-template-columns: repeat(2, minmax(150px, 1fr));
+                gap: 40px;
+            }
+        }
+        .shop-section-favorites {
+            .favorite-grid {
+                grid-template-columns: repeat(2, minmax(150px, 1fr));
+                gap: 40px;
+            }
+        }
+
+        .shop-section-outdoor {
+            .outdoor-container {
+                grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            }
+        }
+        /* shop part ends */
+        
+    }  /*main part ends*/  
     footer {
         padding: 20px 50px;
         .wrapper {
