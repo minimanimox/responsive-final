@@ -643,6 +643,35 @@ main {
                             }
                         }
                     }
+                    .product-container-button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    }
+                }
+            }
+            .more-button {
+                display: flex;
+                align-items: center;
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 40px;
+    
+                padding: 10px 40px;
+                border-radius: 50%;
+                background: #2a063a;
+    
+                a {
+                    &:link,
+                    &:visited {
+                        color: var(--light-purple);
+                    }
+                    &:hover {
+                        color: #cda0e3;
+                    }
+                    &:active {
+                        color: #836df5;
+                    }
                 }
             }
         }

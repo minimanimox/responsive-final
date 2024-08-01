@@ -88,9 +88,52 @@
     main .shop-section-outdoor .wrapper .outdoor-container p{
         font-size: 14px;
     }
-    .product-container .product-content h3 {
+    main .product-container .product-content h3 {
         font-size: 15px;
     }
+
+    main .sale-container .wrapper .sale-aside .filters{
+        width: 200px !important;
+        padding: 40px;
+    }
+    main .sale-container .wrapper .sale-aside .filters .title h3 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    main .sale-container .wrapper .sale-aside .filters .dropdown-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .sale-container .wrapper .sale-aside .filters .dropdown-container .dropdown{
+        position: relative;
+        display: inline-block;
+        height: fit-content;
+    }
+
+    main .sale-container .wrapper .sale-aside .filters .dropdown-container .dropdown .dropbtn {
+        justify-content: left !important;
+    }
+
+    main .sale-container .wrapper .sale-aside .filters .dropdown-container .dropdown .dropbtn img{
+        display: inline-block !important;
+        width: 20px;
+        vertical-align: middle;
+    }
+    main .sale-container .wrapper .sale-aside .filters .dropdown-container .dropdown .dropdown-content {
+        display: none !important;
+        
+    }
+    main .sale-container .wrapper .sale-aside .filters .dropdown-container .dropdown .dropdown-content .each-input {
+        padding-bottom: 10px;
+    }
+
+    main .sale-container .wrapper .sale-aside .filters .dropdown-container .dropdown:hover .dropdown-content {
+        display: block !important;
+    }
+    
 
     footer {
         padding: 20px 20px;

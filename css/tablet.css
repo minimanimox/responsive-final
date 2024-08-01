@@ -249,6 +249,133 @@
         }
         /* shop part ends */
         
+        /* sale part starts */
+        .sale-container {
+            .wrapper {
+                flex-direction: column;
+                padding: 0 20px;
+                align-items: center;
+                .sale-aside {
+                    .filters {
+                        display: flex;
+                        flex-direction: column;
+                        width: 430px; 
+                        padding: 20px;
+                        background-size: cover;
+                        border-radius: 20px;
+                        .title {
+                            h3 {
+                                padding-right: 0;
+                                text-align: center;
+                            }
+                        }
+                        .dropdown-container {
+                            display: flex;
+                            width: 100%; 
+                            .dropdown {
+                                display: flex;
+                                justify-content: center;
+                                flex-direction: column;
+                                width: 130px; 
+                                .dropbtn {
+                                    display: flex;
+                                    justify-content: center;
+                                    img {
+                                        display: none;
+                                    }
+                                }    
+                                .dropdown-content {
+                                    padding: 10px;
+                                    display: block;
+                                    .each-input {
+                                        font-size: 15px;
+                                        width: 100%;
+                                        white-space: normal;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }             
+            
+            
+            .sale-section-1 {
+                padding: 0 20px;
+
+                h2 {
+                    font-size: 30px;
+                    padding: 40px 0;
+                }
+
+                .item-grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+                    gap: 30px;
+                    width: 100%;
+                    padding-bottom: 40px;
+
+                    .product-container {
+                        text-align: center;
+                        position: relative;
+
+                        .product-pic {
+                            width: 100%;
+                            max-width: 200px;
+                            z-index: 1;
+                        }
+
+                        .tag-container {
+                            position: absolute;
+                            z-index: 2;
+                            left: 0;
+                            top: 0;
+
+                            .sale-mark {
+                                width: 70px;
+                            }
+                        }
+
+                        .product-content {
+                            background-color: var(--light-purple);
+                            padding: 10px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            height: 150px; 
+                            h3 {
+                                padding: 10px 0;
+                                flex: 1; /* 남은 공간을 차지하여 가격 정보가 아래로 밀리도록 함 */
+                                margin: 0; 
+                                overflow: hidden; 
+                                text-overflow: ellipsis; /* 넘치는 텍스트를 '...'로 표시 */
+                                font-size: 16px;
+                            }
+                            p {
+                                padding-bottom: 10px;
+                                margin: 0; 
+                                font-weight: bold;
+                                font-size: 20px;
+                            }
+                            .original-price {
+                                text-decoration: line-through;
+                                color: grey; 
+                                font-weight: normal;
+                                font-size: 16px;
+                            }
+                            
+                            .now {
+                                font-weight: bold;
+                                color: red;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    /* sale part ends */
     }  /*main part ends*/  
     footer {
         padding: 20px 50px;
