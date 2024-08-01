@@ -130,9 +130,9 @@
         padding-bottom: 10px;
     }
 
-    main .sale-container .wrapper .sale-aside .filters .dropdown-container .dropdown:hover .dropdown-content {
+    main .sale-container .wrapper .sale-aside .filters .dropdown-container .dropdown .dropdown-checkbox:checked + .dropbtn + .dropdown-content {
         display: block !important;
-    }
+      }
     
     main .introduce-us .wrapper .upper-box .gallery {
         width: calc(50% - 10px); 
