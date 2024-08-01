@@ -690,7 +690,6 @@ main {
             .upper-box {
                 display: flex;
                 justify-content: space-between;
-
                 .gallery {
                     position: relative;
                     margin: 5px;
@@ -746,7 +745,6 @@ main {
             }
         }
     }
-
     /* about part ends */
 
     /* contact part starts */

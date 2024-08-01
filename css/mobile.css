@@ -134,6 +134,9 @@
         display: block !important;
     }
     
+    main .introduce-us .wrapper .upper-box .gallery {
+        width: calc(50% - 10px); 
+    }
 
     footer {
         padding: 20px 20px;
